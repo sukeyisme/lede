@@ -51,6 +51,9 @@ jobs:
           ./scripts/feeds install -a
 
       - name: Generate configuration file
+          #
+          # ========================固件定制部分========================
+          # 
         run: make defconfig
 
       - name: Make download
