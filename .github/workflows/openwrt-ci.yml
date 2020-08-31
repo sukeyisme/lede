@@ -164,6 +164,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-strongswan is not set
           # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           # CONFIG_PACKAGE_luci-app-samba is not set
+          # CONFIG_PACKAGE_luci-app-samba4 is not set
           # CONFIG_PACKAGE_luci-app-vsftpd is not set
           CONFIG_PACKAGE_luci-app-unblockmusic=y
           CONFIG_UnblockNeteaseMusic_Go=y
