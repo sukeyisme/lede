@@ -161,8 +161,8 @@ jobs:
           CONFIG_PACKAGE_luci-app-vlmcsd=y
           # CONFIG_PACKAGE_luci-app-accesscontrol is not set
           # CONFIG_PACKAGE_luci-app-zerotier is not set
-          # CONFIG_PACKAGE_strongswan is not set
-          # CONFIG_PACKAGE_nlbwmon is not set
+          # CONFIG_PACKAGE_luci-app-strongswan is not set
+          # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           # CONFIG_PACKAGE_luci-app-samba is not set
           # CONFIG_PACKAGE_luci-app-vsftpd is not set
           CONFIG_PACKAGE_luci-app-unblockmusic=y
