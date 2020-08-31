@@ -155,7 +155,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-wireguard is not set
           # CONFIG_PACKAGE_luci-app-wrtbwmon is not set
           # CONFIG_PACKAGE_luci-app-firewall is not set
-          CONFIG_PACKAGE_luci-app-flowoffload=y
+          # CONFIG_PACKAGE_luci-app-flowoffload is not set
           CONFIG_PACKAGE_luci-app-sfe=y
           CONFIG_PACKAGE_luci-app-shairplay=y
           CONFIG_PACKAGE_luci-app-vlmcsd=y
@@ -171,6 +171,11 @@ jobs:
           # CONFIG_PACKAGE_luci-app-wol is not set
           # CONFIG_PACKAGE_luci-app-xlnetacc is not set
           # CONFIG_PACKAGE_luci-app-upnp is not set
+          # CONFIG_PACKAGE_luci-app-ramfree is not set
+          # CONFIG_PACKAGE_luci-app-autoreboot is not set
+          # CONFIG_PACKAGE_luci-app-filetransfer is not set
+          CONFIG_PACKAGE_open-vm-tools=y
+          
           EOF
 
           # LuCI主题:
