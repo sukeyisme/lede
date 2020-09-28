@@ -141,7 +141,6 @@ jobs:
           # CONFIG_PACKAGE_luci-app-kodexplorer is not set
           # CONFIG_PACKAGE_luci-app-minidlna is not set
           # CONFIG_PACKAGE_luci-app-openvpn is not set
-          CONFIG_PACKAGE_luci-app-openvpn-server=y
           # CONFIG_PACKAGE_luci-app-qbittorrent is not set
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Kcptun=y
           CONFIG_PACKAGE_luci-app-ssr-plus_INCLUDE_Shadowsocks=y
@@ -177,6 +176,7 @@ jobs:
           CONFIG_PACKAGE_luci-app-uhttpd=y
           CONFIG_PACKAGE_luci-ssl-openssl=y
           CONFIG_PACKAGE_open-vm-tools=y
+          CONFIG_PACKAGE_luci-app-openvpn-server=y
           
           EOF
 
